@@ -1,27 +1,10 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
 body {
   font-family: "Poppins", sans-serif;
-  margin: 0;
-  padding: 0;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  min-height: 100vh;
   background-color: #f1f1f1;
 }
 
-.card {
-  border: none !important;
-  width: 20rem;
-}
-
-@media screen and (max-width: 450px) {
-  .card {
-    width: 90% !important;
+@media (min-width: 800px) {
+  .container {
+    width: 800px;
   }
 }
